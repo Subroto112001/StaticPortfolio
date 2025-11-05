@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Portfolio</title>
 
     <link rel="stylesheet" href="/StyleSheet/style.css" />
     <!-- ----------- Font Sora Link ----------- -->
@@ -28,10 +28,10 @@
 
             <div>
                 <ul class="gap-8 hidden sm:flex">
-                    <li class="navitem"><a href="#">About Me</a></li>
-                    <li class="navitem"><a href="#">Skills</a></li>
-                    <li class="navitem"><a href="#">Projects</a></li>
-                    <li class="navitem"><a href="#">Contact</a></li>
+                    <li class="navitem"><a href="#about">About Me</a></li>
+                    <li class="navitem"><a href="#skill">Skills</a></li>
+                    <li class="navitem"><a href="#project">Projects</a></li>
+                    <li class="navitem"><a href="#footer">Contact</a></li>
                 </ul>
             </div>
             <div class="hidden sm:block">
@@ -46,16 +46,16 @@
 
         <div id="navitems" class="hidden pt-5 flex items-center justify-center">
             <ul class="gap-3  flex flex-col items-center justify-center">
-                <li class="navitemhidden"><a href="#">About Me</a></li>
-                <li class="navitemhidden"><a href="#">Skills</a></li>
-                <li class="navitemhidden"><a href="#">Projects</a></li>
-                <li class="navitemhidden"><a href="#">Contact</a></li>
+                <li ><a class="navitemhidden" href="#about">About Me</a></li>
+                <li ><a class="navitemhidden" href="#skill">Skills</a></li>
+                <li ><a class="navitemhidden" href="#experience">Projects</a></li>
+                <li ><a class="navitemhidden" href="#footer">Contact</a></li>
             </ul>
         </div>
     </div>
     <!-- -------------------------- header part -------------------------- -->
     <!-- -------------------------- banner part -------------------------- -->
-    <div class="container">
+    <div class="container" >
         <div class="px-4 sm:px-0 flex flex-col relative ">
             <div class="flex flex-col-reverse sm:flex-row sm:justify-between sm:items-center">
                 <div class="mt-12 sm:mt-0">
@@ -88,7 +88,7 @@
     </div>
     <!-- -------------------------- banner part -------------------------- -->
     <!-- -------------------------- Skill part -------------------------- -->
-    <div class="container">
+    <div class="container" id="skill">
         <div class="py-[80px]">
             <h2 class="displayText text-center">My <span class="font-bold">Skill</span></h2>
 
@@ -141,7 +141,8 @@
 
     </div>
     <!-- -------------------------- Skill part -------------------------- -->
-    <div class="bg-black">
+    <!-- -------------------------- Experience part -------------------------- -->
+    <div class="bg-black" id="experience">
         <div class="container">
             <div class="py-[80px]">
                 <h2 class="displayText text-white text-center">My <span class="font-extrabold">Experience</span></h2>
@@ -197,9 +198,9 @@
 
         </div>
     </div>
-    <!-- -------------------------- Skill part -------------------------- -->
+    <!-- -------------------------- Experience part -------------------------- -->
     <!-- -------------------------- About part -------------------------- -->
-    <div class="container">
+    <div class="container" id="about">
 
         <div class="mt-10 px-4 flex flex-col sm:flex-row sm:gap-x-[80px] sm:items-center sm:justify-center">
             <div class="w-[330px] sm:w-[530px] h-[380px] sm:h-[580px]">
@@ -240,7 +241,7 @@
     </div>
     <!-- -------------------------- About part -------------------------- -->
     <!-- -------------------------- My Project -------------------------- -->
-    <div class="bg-black">
+    <div class="bg-black" id="project">
 
         <div class="container">
             <div class="py-[80px]">
@@ -316,7 +317,7 @@
     </div>
     <!-- -------------------------- My Project -------------------------- -->
     <!-- -------------------------- Testimonial Section -------------------------- -->
-    <div class="container">
+    <div class="container" >
         <div class="py-[80px]">
             <h2 class="displayText text-center">My <span class="font-extrabold">Testimonial</span></h2>
 
@@ -396,7 +397,7 @@
     </div>
     <!-- -------------------------- Testimonial Section -------------------------- -->
     <!-- ---------------------  footer --------------------- -->
-    <footer class="bg-black text-white">
+    <footer class="bg-black text-white" id="footer">
         <div class="container">
             <div class="flex flex-col sm:flex-row justify-between items-center py-6 px-6">
                 <div class="flex flex-row items-center gap-3">
