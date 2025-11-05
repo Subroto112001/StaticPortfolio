@@ -95,3 +95,27 @@ img {
   letter-spacing: 2%;
    text-align: justify;
 }
+/* icon part css */
+.iconItems{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 28px;
+  color: white;
+  background-color: #000000;
+  border: 2px solid black;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  cursor: pointer;
+
+}
+.iconItems:hover{
+  color: black;
+  background-color: white;
+  transition-duration: 0.4s;
+}
+/* icon part css */
