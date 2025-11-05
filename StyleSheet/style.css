@@ -54,49 +54,48 @@ img {
   font-size: 20px;
   font-weight: 500;
 }
-.buttonText{
+.buttonText {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 2%;
 }
-.navitemhidden{
- padding-top: 10px;
- padding-bottom: 10px;
- width: 300px;
- display: flex;
- align-items: center;
- justify-content: center;
- border-radius: 100px;
- 
- border: 1px solid black;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
- -ms-border-radius: 100px;
- -o-border-radius: 100px;
+.navitemhidden {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+
+  border: 1px solid black;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
 }
-.navitemhidden:hover{
+.navitemhidden:hover {
   background-color: gray;
   transition-duration: 0.3s;
   border: 1px solid gray;
   color: white;
 }
-.displayText{
+.displayText {
   font-size: 44px;
   font-weight: 400;
-  line-height: 56px ;
+  line-height: 56px;
   letter-spacing: -2%;
   color: #000000;
-
 }
-.paragraphP2{
+.paragraphP2 {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 2%;
-   text-align: justify;
+  text-align: justify;
 }
 /* icon part css */
-.iconItems{
+.iconItems {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 16px;
@@ -111,11 +110,31 @@ img {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   cursor: pointer;
-
 }
-.iconItems:hover{
+.iconItems:hover {
   color: black;
   background-color: white;
   transition-duration: 0.4s;
 }
 /* icon part css */
+/* skill part */
+.SkillsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.SkillsItem:hover {
+  background-color: black;
+  transition-duration: 0.4s;
+  border: 2px solid black;
+  color: white;
+}
+/* skill part */
