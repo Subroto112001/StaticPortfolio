@@ -17,13 +17,13 @@
 
 <body>
     <!-- --------------------- header part --------------------- -->
-    <div class="container">
+    <nav class="container">
         <div class="flex justify-between items-center px-4 sm:px-0">
             <div class="flex flex-row items-center gap-3">
                 <picture>
                     <img src="./Image/logo.png" alt="Logo" />
                 </picture>
-                <h2 class="headingH5">Your Name</h2>
+                <a href="/" class="headingH5">Your Name</a>
             </div>
 
             <div>
@@ -35,7 +35,8 @@
                 </ul>
             </div>
             <div class="hidden sm:block">
-                <button class="bg-black text-white px-3 py-2 rounded-md flex items-center gap-3 buttonText">Resume
+                <button
+                    class="bg-black border border-black hover:bg-white hover:text-black duration-700 transition-all hover:scale-105 text-white px-3 py-2 rounded-md flex items-center gap-3 buttonText">Resume
                     <span><i class="fa-solid fa-arrow-down"></i></span></button>
             </div>
 
@@ -46,16 +47,16 @@
 
         <div id="navitems" class="hidden pt-5 flex items-center justify-center">
             <ul class="gap-3  flex flex-col items-center justify-center">
-                <li ><a class="navitemhidden" href="#about">About Me</a></li>
-                <li ><a class="navitemhidden" href="#skill">Skills</a></li>
-                <li ><a class="navitemhidden" href="#experience">Projects</a></li>
-                <li ><a class="navitemhidden" href="#footer">Contact</a></li>
+                <li><a class="navitemhidden" href="#about">About Me</a></li>
+                <li><a class="navitemhidden" href="#skill">Skills</a></li>
+                <li><a class="navitemhidden" href="#experience">Projects</a></li>
+                <li><a class="navitemhidden" href="#footer">Contact</a></li>
             </ul>
         </div>
-    </div>
+    </nav>
     <!-- -------------------------- header part -------------------------- -->
     <!-- -------------------------- banner part -------------------------- -->
-    <div class="container" >
+    <section class="container">
         <div class="px-4 sm:px-0 flex flex-col relative ">
             <div class="flex flex-col-reverse sm:flex-row sm:justify-between sm:items-center">
                 <div class="mt-12 sm:mt-0">
@@ -85,10 +86,10 @@
         </div>
 
 
-    </div>
+    </section>
     <!-- -------------------------- banner part -------------------------- -->
     <!-- -------------------------- Skill part -------------------------- -->
-    <div class="container" id="skill">
+    <section class="container" id="skill">
         <div class="py-[80px]">
             <h2 class="displayText text-center">My <span class="font-bold">Skill</span></h2>
 
@@ -139,10 +140,10 @@
             <!-- --------------------------- skill items part --------------------------- -->
         </div>
 
-    </div>
+    </section>
     <!-- -------------------------- Skill part -------------------------- -->
     <!-- -------------------------- Experience part -------------------------- -->
-    <div class="bg-black" id="experience">
+    <section class="bg-black" id="experience">
         <div class="container">
             <div class="py-[80px]">
                 <h2 class="displayText text-white text-center">My <span class="font-extrabold">Experience</span></h2>
@@ -150,7 +151,7 @@
 
                 <ul class="flex flex-col gap-16 px-6 items-center justify-center mt-[80px]">
 
-                    <li class="experienceItem">
+                    <li class="experienceItem ">
                         <div class="flex justify-between flex-col sm:flex-row sm:items-center">
                             <div class="text-white flex flex-row items-center gap-5"><span class="text-2xl"><i
                                         class="fa-brands fa-google"></i></span>
@@ -197,10 +198,10 @@
 
 
         </div>
-    </div>
+    </section>
     <!-- -------------------------- Experience part -------------------------- -->
     <!-- -------------------------- About part -------------------------- -->
-    <div class="container" id="about">
+    <section class="container" id="about">
 
         <div class="mt-10 px-4 flex flex-col sm:flex-row sm:gap-x-[80px] sm:items-center sm:justify-center">
             <div class="w-[330px] sm:w-[530px] h-[380px] sm:h-[580px]">
@@ -238,10 +239,10 @@
             </div>
             <!-------------- heading----------- -->
         </div>
-    </div>
+    </section>
     <!-- -------------------------- About part -------------------------- -->
     <!-- -------------------------- My Project -------------------------- -->
-    <div class="bg-black" id="project">
+    <section class="bg-black" id="project">
 
         <div class="container">
             <div class="py-[80px]">
@@ -314,10 +315,10 @@
             </div>
 
         </div>
-    </div>
+    </section>
     <!-- -------------------------- My Project -------------------------- -->
     <!-- -------------------------- Testimonial Section -------------------------- -->
-    <div class="container" >
+    <section class="container">
         <div class="py-[80px]">
             <h2 class="displayText text-center">My <span class="font-extrabold">Testimonial</span></h2>
 
@@ -394,8 +395,133 @@
 
             </div>
         </div>
-    </div>
+    </section>
     <!-- -------------------------- Testimonial Section -------------------------- -->
+    <!-- -------------------------- Contact Section -------------------------- -->
+    <!-- -------------------------- Contact Section -------------------------- -->
+    <section class="container" id="contact">
+        <div class="py-[80px] px-4 sm:px-0">
+            <h2 class="displayText text-center">Let's <span class="font-extrabold">Connect</span></h2>
+
+            <div class="mt-[60px] flex flex-col lg:flex-row gap-12 lg:gap-[80px] justify-center items-start">
+
+                <!-- ------------------- Left Side ------------------- -->
+                <div class="w-full lg:w-[400px]">
+                    <h3 class="headingH4 mb-6">Get in Touch</h3>
+                    <p class="paragraphP2 text-zinc-500 mb-8">
+                        Feel free to reach out if you want to collaborate on a project, have a question, or just want to
+                        connect.
+                    </p>
+
+                    <div class="space-y-6">
+                        <!-- -------------------  Email Part ------------------- -->
+                        <div class="flex items-center gap-4 hover:scale-105 transition-all duration-700">
+                            <div class="w-12 h-12 bg-black rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-envelope text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="headingH6 text-black">Email</h4>
+                                <a href="mailto:your.email@example.com"
+                                    class="paragraphP2 text-zinc-600 hover:text-black transition-colors">
+                                    your.email@example.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- -------------------  Email Part ------------------- -->
+                        <!-- -------------------  Phone Part ------------------- -->
+
+                        <div class="flex items-center gap-4 hover:scale-105 transition-all duration-700">
+                            <div class="w-12 h-12 bg-black rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-phone text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="headingH6 text-black ">Phone</h4>
+                                <a href="tel:+1234567890"
+                                    class="paragraphP2 text-zinc-600 hover:text-black transition-colors">
+                                    +123 456 7890
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- -------------------  Phone Part ------------------- -->
+                        <!-- Location -->
+                        <div class="flex items-center gap-4 hover:scale-105 transition-all duration-700">
+                            <div class="w-12 h-12 bg-black rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-location-dot text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="headingH6 text-black">Location</h4>
+                                <p class="paragraphP2 text-zinc-600">
+                                    Dhaka, Bangladesh
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="mt-8 sm:mt-48">
+                        <h4 class="headingH6 mb-4">Follow Me</h4>
+                        <ul class="flex flex-row items-center gap-4">
+                            <li class="iconItems"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li class="iconItems"><a href="#"><i class="fa-brands fa-reddit-alien"></i></a></li>
+                            <li class="iconItems"><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+                            <li class="iconItems"><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- ------------------- Left Side ------------------- -->
+                <!-- ------------------- Right Side ------------------- -->
+
+                <div class="w-full lg:w-[600px]">
+                    <div class="bg-zinc-50 border border-zinc-200 rounded-2xl p-8">
+                        <h3 class="headingH5 mb-6">Send Me a Message</h3>
+
+                        <div class="space-y-5">
+                            <!-- Name Input -->
+                            <div>
+                                <label for="name" class="block paragraphP2 font-medium mb-2">Your Name</label>
+                                <input type="text" id="name" placeholder="Enter your name"
+                                    class="w-full px-4 py-3 border border-zinc-300 rounded-lg focus:outline-none focus:border-black transition-colors" />
+                            </div>
+
+                            <!-- Email Input -->
+                            <div>
+                                <label for="email" class="block paragraphP2 font-medium mb-2">Your Email</label>
+                                <input type="email" id="email" placeholder="Enter your email"
+                                    class="w-full px-4 py-3 border border-zinc-300 rounded-lg focus:outline-none focus:border-black transition-colors" />
+                            </div>
+
+                            <!-- Subject Input -->
+                            <div>
+                                <label for="subject" class="block paragraphP2 font-medium mb-2">Subject</label>
+                                <input type="text" id="subject" placeholder="What's this about?"
+                                    class="w-full px-4 py-3 border border-zinc-300 rounded-lg focus:outline-none focus:border-black transition-colors" />
+                            </div>
+
+                            <!-- Message Textarea -->
+                            <div>
+                                <label for="message" class="block paragraphP2 font-medium mb-2">Message</label>
+                                <textarea id="message" rows="5" placeholder="Tell me more about your project..."
+                                    class="w-full px-4 py-3 border border-zinc-300 rounded-lg focus:outline-none focus:border-black transition-colors resize-none"></textarea>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button
+                                class="w-full bg-black border border-black hover:bg-white hover:text-black duration-700 transition-all hover:scale-105 text-white px-6 py-3 rounded-lg flex items-center justify-center gap-3 buttonText">
+                                Send Message
+                                <span><i class="fa-solid fa-paper-plane"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------- Right Side ------------------- -->
+
+            </div>
+        </div>
+    </section>
+    <!-- -------------------------- Contact Section -------------------------- -->
+    <!-- -------------------------- Contact Section -------------------------- -->
     <!-- ---------------------  footer --------------------- -->
     <footer class="bg-black text-white" id="footer">
         <div class="container">
@@ -411,8 +537,8 @@
                 <div class="text-center sm:text-right mt-4 sm:mt-0">
                     <p class="text-xs text-zinc-400">@ 2019-2023 Personal</p>
                     <p class="text-xs text-zinc-500">Created by Subroto | Powered by
-                    ranocoder Ltd.</p>
-              
+                        ranocoder Ltd.</p>
+
                 </div>
 
             </div>
